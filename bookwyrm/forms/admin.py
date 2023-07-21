@@ -10,6 +10,8 @@ from django_celery_beat.models import IntervalSchedule
 
 from bookwyrm import models
 from .custom_form import CustomForm, StyledForm
+from typing import Optional
+from datetime import timedelta
 
 
 # pylint: disable=missing-class-docstring
